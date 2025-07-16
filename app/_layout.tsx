@@ -13,6 +13,7 @@ const RootLayout = () => {
   });
 
   if (!loaded) null;
+  
   return (
     <View style={globalStyles.backGround}>
       <Slot />
